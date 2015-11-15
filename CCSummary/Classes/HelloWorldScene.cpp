@@ -1,4 +1,5 @@
 #include "HelloWorldScene.h"
+#include "ChapterThird.h"
 
 USING_NS_CC;
 
@@ -78,9 +79,14 @@ bool HelloWorld::init()
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
-    Director::getInstance()->end();
-
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    exit(0);
-#endif
+    
+    auto scene = ChapterThird::createScene();
+    Director::getInstance()->replaceScene(scene);
+    
+    
+//    Director::getInstance()->end();
+//
+//#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+//    exit(0);
+//#endif
 }
