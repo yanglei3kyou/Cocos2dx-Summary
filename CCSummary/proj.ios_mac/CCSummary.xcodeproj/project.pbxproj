@@ -60,10 +60,16 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		951D243E1BF9714D007D85CC /* CSiMonster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D243D1BF9714D007D85CC /* CSiMonster.cpp */; };
+		951D243F1BF9714D007D85CC /* CSiMonster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D243D1BF9714D007D85CC /* CSiMonster.cpp */; };
+		951D24421BF97364007D85CC /* CSiMonsterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D24411BF97364007D85CC /* CSiMonsterManager.cpp */; };
+		951D24431BF97364007D85CC /* CSiMonsterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D24411BF97364007D85CC /* CSiMonsterManager.cpp */; };
+		951D24471BF97E71007D85CC /* FlowWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D24451BF97E71007D85CC /* FlowWord.cpp */; };
+		951D24481BF97E71007D85CC /* FlowWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951D24451BF97E71007D85CC /* FlowWord.cpp */; };
+		951D244A1BF98360007D85CC /* RunnerScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 951D24491BF98360007D85CC /* RunnerScene.csb */; };
+		951D244B1BF98360007D85CC /* RunnerScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = 951D24491BF98360007D85CC /* RunnerScene.csb */; };
 		952BD9811BF5B58300E77DE9 /* ChapterFifth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952BD9801BF5B58300E77DE9 /* ChapterFifth.cpp */; };
 		952BD9821BF5B58300E77DE9 /* ChapterFifth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952BD9801BF5B58300E77DE9 /* ChapterFifth.cpp */; };
-		952BD9851BF5B7A300E77DE9 /* sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 952BD9841BF5B7A300E77DE9 /* sprite.png */; };
-		952BD9861BF5B7A300E77DE9 /* sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 952BD9841BF5B7A300E77DE9 /* sprite.png */; };
 		956EBE701BF2D7F3006DBD5B /* ChapterThird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956EBE6F1BF2D7F3006DBD5B /* ChapterThird.cpp */; };
 		956EBE711BF2D7F3006DBD5B /* ChapterThird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956EBE6F1BF2D7F3006DBD5B /* ChapterThird.cpp */; };
 		956EBE741BF3103D006DBD5B /* ChapterFourth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956EBE731BF3103D006DBD5B /* ChapterFourth.cpp */; };
@@ -78,6 +84,30 @@
 		956EBE891BF44E1B006DBD5B /* MoreUI.csb in Resources */ = {isa = PBXBuildFile; fileRef = 956EBE871BF44E1B006DBD5B /* MoreUI.csb */; };
 		95826E6D1BF094CA00A8BC67 /* ChapterSecond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95826E6B1BF094CA00A8BC67 /* ChapterSecond.cpp */; };
 		95826E6E1BF094CA00A8BC67 /* ChapterSecond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95826E6B1BF094CA00A8BC67 /* ChapterSecond.cpp */; };
+		95CF116B1BF8A16E006382D5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11621BF8A16E006382D5 /* background.png */; };
+		95CF116C1BF8A16E006382D5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11621BF8A16E006382D5 /* background.png */; };
+		95CF116D1BF8A16E006382D5 /* bgMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11631BF8A16E006382D5 /* bgMusic.wav */; };
+		95CF116E1BF8A16E006382D5 /* bgMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11631BF8A16E006382D5 /* bgMusic.wav */; };
+		95CF116F1BF8A16E006382D5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11641BF8A16E006382D5 /* button.png */; };
+		95CF11701BF8A16E006382D5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11641BF8A16E006382D5 /* button.png */; };
+		95CF11711BF8A16E006382D5 /* hitEffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11651BF8A16E006382D5 /* hitEffect.wav */; };
+		95CF11721BF8A16E006382D5 /* hitEffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11651BF8A16E006382D5 /* hitEffect.wav */; };
+		95CF11731BF8A16E006382D5 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11661BF8A16E006382D5 /* monster.png */; };
+		95CF11741BF8A16E006382D5 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11661BF8A16E006382D5 /* monster.png */; };
+		95CF11751BF8A16E006382D5 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11671BF8A16E006382D5 /* progress.png */; };
+		95CF11761BF8A16E006382D5 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11671BF8A16E006382D5 /* progress.png */; };
+		95CF11771BF8A16E006382D5 /* sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11681BF8A16E006382D5 /* sprite.png */; };
+		95CF11781BF8A16E006382D5 /* sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11681BF8A16E006382D5 /* sprite.png */; };
+		95CF11791BF8A16E006382D5 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11691BF8A16E006382D5 /* title.png */; };
+		95CF117A1BF8A16E006382D5 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CF11691BF8A16E006382D5 /* title.png */; };
+		95CF117B1BF8A16E006382D5 /* tollgateBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95CF116A1BF8A16E006382D5 /* tollgateBG.jpg */; };
+		95CF117C1BF8A16E006382D5 /* tollgateBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95CF116A1BF8A16E006382D5 /* tollgateBG.jpg */; };
+		95CF117E1BF8AA84006382D5 /* CSiEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF117D1BF8AA84006382D5 /* CSiEntity.cpp */; };
+		95CF117F1BF8AA84006382D5 /* CSiEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF117D1BF8AA84006382D5 /* CSiEntity.cpp */; };
+		95CF11821BF8AABD006382D5 /* CSiPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF11811BF8AABD006382D5 /* CSiPlayer.cpp */; };
+		95CF11831BF8AABD006382D5 /* CSiPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF11811BF8AABD006382D5 /* CSiPlayer.cpp */; };
+		95CF11861BF8AAEB006382D5 /* CSiTollagteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF11851BF8AAEB006382D5 /* CSiTollagteScene.cpp */; };
+		95CF11871BF8AAEB006382D5 /* CSiTollagteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CF11851BF8AAEB006382D5 /* CSiTollagteScene.cpp */; };
 		95F036D81BF702880057449F /* sprite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F036D61BF702880057449F /* sprite1.png */; };
 		95F036D91BF702880057449F /* sprite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F036D61BF702880057449F /* sprite1.png */; };
 		95F036DA1BF702880057449F /* sprite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F036D71BF702880057449F /* sprite2.png */; };
@@ -176,9 +206,15 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		951D243D1BF9714D007D85CC /* CSiMonster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSiMonster.cpp; sourceTree = "<group>"; };
+		951D24401BF9715A007D85CC /* CSiMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSiMonster.h; sourceTree = "<group>"; };
+		951D24411BF97364007D85CC /* CSiMonsterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSiMonsterManager.cpp; sourceTree = "<group>"; };
+		951D24441BF9736F007D85CC /* CSiMonsterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSiMonsterManager.h; sourceTree = "<group>"; };
+		951D24451BF97E71007D85CC /* FlowWord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlowWord.cpp; sourceTree = "<group>"; };
+		951D24461BF97E71007D85CC /* FlowWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowWord.h; sourceTree = "<group>"; };
+		951D24491BF98360007D85CC /* RunnerScene.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = RunnerScene.csb; sourceTree = "<group>"; };
 		952BD9801BF5B58300E77DE9 /* ChapterFifth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChapterFifth.cpp; sourceTree = "<group>"; };
 		952BD9831BF5B59300E77DE9 /* ChapterFifth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterFifth.h; sourceTree = "<group>"; };
-		952BD9841BF5B7A300E77DE9 /* sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite.png; sourceTree = "<group>"; };
 		956EBE6F1BF2D7F3006DBD5B /* ChapterThird.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChapterThird.cpp; sourceTree = "<group>"; };
 		956EBE721BF2D7FD006DBD5B /* ChapterThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterThird.h; sourceTree = "<group>"; };
 		956EBE731BF3103D006DBD5B /* ChapterFourth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChapterFourth.cpp; sourceTree = "<group>"; };
@@ -189,6 +225,21 @@
 		956EBE871BF44E1B006DBD5B /* MoreUI.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoreUI.csb; sourceTree = "<group>"; };
 		95826E6B1BF094CA00A8BC67 /* ChapterSecond.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChapterSecond.cpp; sourceTree = "<group>"; };
 		95826E6F1BF0952400A8BC67 /* ChapterSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterSecond.h; sourceTree = "<group>"; };
+		95CF11621BF8A16E006382D5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		95CF11631BF8A16E006382D5 /* bgMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgMusic.wav; sourceTree = "<group>"; };
+		95CF11641BF8A16E006382D5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		95CF11651BF8A16E006382D5 /* hitEffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitEffect.wav; sourceTree = "<group>"; };
+		95CF11661BF8A16E006382D5 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		95CF11671BF8A16E006382D5 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
+		95CF11681BF8A16E006382D5 /* sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite.png; sourceTree = "<group>"; };
+		95CF11691BF8A16E006382D5 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		95CF116A1BF8A16E006382D5 /* tollgateBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tollgateBG.jpg; sourceTree = "<group>"; };
+		95CF117D1BF8AA84006382D5 /* CSiEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSiEntity.cpp; sourceTree = "<group>"; };
+		95CF11801BF8AA8D006382D5 /* CSiEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSiEntity.h; sourceTree = "<group>"; };
+		95CF11811BF8AABD006382D5 /* CSiPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSiPlayer.cpp; sourceTree = "<group>"; };
+		95CF11841BF8AAC5006382D5 /* CSiPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSiPlayer.h; sourceTree = "<group>"; };
+		95CF11851BF8AAEB006382D5 /* CSiTollagteScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSiTollagteScene.cpp; sourceTree = "<group>"; };
+		95CF11881BF8AAF5006382D5 /* CSiTollagteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSiTollagteScene.h; sourceTree = "<group>"; };
 		95F036D61BF702880057449F /* sprite1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite1.png; sourceTree = "<group>"; };
 		95F036D71BF702880057449F /* sprite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite2.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -325,8 +376,17 @@
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
+				95CF11621BF8A16E006382D5 /* background.png */,
+				95CF11631BF8A16E006382D5 /* bgMusic.wav */,
+				95CF11641BF8A16E006382D5 /* button.png */,
+				95CF11651BF8A16E006382D5 /* hitEffect.wav */,
+				951D24491BF98360007D85CC /* RunnerScene.csb */,
+				95CF11661BF8A16E006382D5 /* monster.png */,
+				95CF11671BF8A16E006382D5 /* progress.png */,
+				95CF11681BF8A16E006382D5 /* sprite.png */,
+				95CF11691BF8A16E006382D5 /* title.png */,
+				95CF116A1BF8A16E006382D5 /* tollgateBG.jpg */,
 				46880B7A19C43A67006E1F66 /* HelloWorld.png */,
-				952BD9841BF5B7A300E77DE9 /* sprite.png */,
 				956EBE7E1BF38557006DBD5B /* xiaoruo.png */,
 				95F036D61BF702880057449F /* sprite1.png */,
 				95F036D71BF702880057449F /* sprite2.png */,
@@ -353,6 +413,18 @@
 				956EBE761BF31049006DBD5B /* ChapterFourth.h */,
 				952BD9801BF5B58300E77DE9 /* ChapterFifth.cpp */,
 				952BD9831BF5B59300E77DE9 /* ChapterFifth.h */,
+				951D24451BF97E71007D85CC /* FlowWord.cpp */,
+				951D24461BF97E71007D85CC /* FlowWord.h */,
+				95CF117D1BF8AA84006382D5 /* CSiEntity.cpp */,
+				95CF11801BF8AA8D006382D5 /* CSiEntity.h */,
+				95CF11811BF8AABD006382D5 /* CSiPlayer.cpp */,
+				95CF11841BF8AAC5006382D5 /* CSiPlayer.h */,
+				95CF11851BF8AAEB006382D5 /* CSiTollagteScene.cpp */,
+				95CF11881BF8AAF5006382D5 /* CSiTollagteScene.h */,
+				951D243D1BF9714D007D85CC /* CSiMonster.cpp */,
+				951D24401BF9715A007D85CC /* CSiMonster.h */,
+				951D24411BF97364007D85CC /* CSiMonsterManager.cpp */,
+				951D24441BF9736F007D85CC /* CSiMonsterManager.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -501,14 +573,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				95CF116B1BF8A16E006382D5 /* background.png in Resources */,
 				95F036DA1BF702880057449F /* sprite2.png in Resources */,
 				956EBE781BF31479006DBD5B /* SkyCity.mp3 in Resources */,
+				95CF117B1BF8A16E006382D5 /* tollgateBG.jpg in Resources */,
+				95CF11731BF8A16E006382D5 /* monster.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
-				952BD9851BF5B7A300E77DE9 /* sprite.png in Resources */,
 				956EBE881BF44E1B006DBD5B /* MoreUI.csb in Resources */,
+				95CF11771BF8A16E006382D5 /* sprite.png in Resources */,
+				95CF11791BF8A16E006382D5 /* title.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				951D244A1BF98360007D85CC /* RunnerScene.csb in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
@@ -518,6 +595,7 @@
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				95CF11751BF8A16E006382D5 /* progress.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
@@ -525,11 +603,14 @@
 				956EBE841BF38652006DBD5B /* Scene.csb in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				95CF116F1BF8A16E006382D5 /* button.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				95CF11711BF8A16E006382D5 /* hitEffect.wav in Resources */,
 				95F036D81BF702880057449F /* sprite1.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				956EBE811BF38557006DBD5B /* xiaoruo.png in Resources */,
+				95CF116D1BF8A16E006382D5 /* bgMusic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,14 +619,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F036DB1BF702880057449F /* sprite2.png in Resources */,
+				95CF11701BF8A16E006382D5 /* button.png in Resources */,
+				95CF11761BF8A16E006382D5 /* progress.png in Resources */,
+				95CF116E1BF8A16E006382D5 /* bgMusic.wav in Resources */,
 				956EBE791BF31479006DBD5B /* SkyCity.mp3 in Resources */,
+				95CF11741BF8A16E006382D5 /* monster.png in Resources */,
+				95CF116C1BF8A16E006382D5 /* background.png in Resources */,
+				951D244B1BF98360007D85CC /* RunnerScene.csb in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
-				952BD9861BF5B7A300E77DE9 /* sprite.png in Resources */,
+				95CF117C1BF8A16E006382D5 /* tollgateBG.jpg in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				956EBE821BF38557006DBD5B /* xiaoruo.png in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				956EBE891BF44E1B006DBD5B /* MoreUI.csb in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
+				95CF11781BF8A16E006382D5 /* sprite.png in Resources */,
+				95CF117A1BF8A16E006382D5 /* title.png in Resources */,
+				95CF11721BF8A16E006382D5 /* hitEffect.wav in Resources */,
 				956EBE851BF38652006DBD5B /* Scene.csb in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				95F036D91BF702880057449F /* sprite1.png in Resources */,
@@ -565,9 +655,15 @@
 				956EBE741BF3103D006DBD5B /* ChapterFourth.cpp in Sources */,
 				956EBE701BF2D7F3006DBD5B /* ChapterThird.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				951D243E1BF9714D007D85CC /* CSiMonster.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				951D24471BF97E71007D85CC /* FlowWord.cpp in Sources */,
+				95CF11861BF8AAEB006382D5 /* CSiTollagteScene.cpp in Sources */,
 				95826E6D1BF094CA00A8BC67 /* ChapterSecond.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				951D24421BF97364007D85CC /* CSiMonsterManager.cpp in Sources */,
+				95CF117E1BF8AA84006382D5 /* CSiEntity.cpp in Sources */,
+				95CF11821BF8AABD006382D5 /* CSiPlayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,9 +674,15 @@
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				95826E6E1BF094CA00A8BC67 /* ChapterSecond.cpp in Sources */,
+				951D243F1BF9714D007D85CC /* CSiMonster.cpp in Sources */,
+				95CF117F1BF8AA84006382D5 /* CSiEntity.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				956EBE751BF3103D006DBD5B /* ChapterFourth.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				95CF11871BF8AAEB006382D5 /* CSiTollagteScene.cpp in Sources */,
+				951D24431BF97364007D85CC /* CSiMonsterManager.cpp in Sources */,
+				95CF11831BF8AABD006382D5 /* CSiPlayer.cpp in Sources */,
+				951D24481BF97E71007D85CC /* FlowWord.cpp in Sources */,
 				952BD9821BF5B58300E77DE9 /* ChapterFifth.cpp in Sources */,
 				956EBE711BF2D7F3006DBD5B /* ChapterThird.cpp in Sources */,
 			);
@@ -626,7 +728,7 @@
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
@@ -662,7 +764,7 @@
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
